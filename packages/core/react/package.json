@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@nextui-org/system": "workspace:*",
-    "@nextui-org/theme": "workspace:*",
+    "@kkoms/theme": "workspace:*",
     "@nextui-org/accordion": "workspace:*",
     "@nextui-org/autocomplete": "workspace:*",
     "@nextui-org/avatar": "workspace:*",
