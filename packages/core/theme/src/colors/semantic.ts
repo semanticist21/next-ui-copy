@@ -80,19 +80,19 @@ const base: SemanticBaseColors = {
 export const themeColorsLight: ThemeColors = {
   ...base.light,
   default: {
-    ...common.zinc,
-    foreground: readableColor(common.zinc[300]),
-    DEFAULT: common.zinc[300],
+    ...common.ktGray,
+    foreground: common.ktGray.white,
+    DEFAULT: common.ktGray[600],
   },
   primary: {
-    ...common.blue,
-    foreground: readableColor(common.blue[500]),
-    DEFAULT: common.blue[500],
+    ...common.ktGray,
+    foreground: common.ktGray.white,
+    DEFAULT: common.ktGray[600],
   },
   secondary: {
-    ...common.purple,
-    foreground: readableColor(common.purple[500]),
-    DEFAULT: common.purple[500],
+    ...common.ktGray,
+    foreground: common.ktGray[600],
+    DEFAULT: common.ktGray[100],
   },
   success: {
     ...common.green,
