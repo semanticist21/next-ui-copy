@@ -33,14 +33,14 @@ const input = tv({
       "subpixel-antialiased",
       "block",
       "text-small",
-      "text-foreground-500",
+      "text-foreground-400",
     ],
     mainWrapper: "h-full",
     inputWrapper:
       "relative w-full inline-flex tap-highlight-transparent flex-row items-center shadow-sm px-3 gap-3",
     innerWrapper: "inline-flex w-full items-center h-full box-border",
     input: [
-      "w-full font-normal bg-transparent !outline-none placeholder:text-foreground-500 focus-visible:outline-none",
+      "w-full font-normal bg-transparent !outline-none placeholder:text-foreground-400 focus-visible:outline-none",
       "data-[has-start-content=true]:ps-1.5",
       "data-[has-end-content=true]:pe-1.5",
     ],
@@ -72,9 +72,9 @@ const input = tv({
     variant: {
       flat: {
         inputWrapper: [
-          "bg-default-100",
-          "data-[hover=true]:bg-default-200",
-          "group-data-[focus=true]:bg-default-100",
+          "bg-default-50",
+          "data-[hover=true]:border-default-900",
+          "group-data-[focus=true]:bg-default-50",
         ],
       },
       faded: {
@@ -252,7 +252,7 @@ const input = tv({
       variant: "flat",
       color: "default",
       class: {
-        input: "group-data-[has-value=true]:text-default-foreground",
+        input: "group-data-[has-value=true]:text-default-900",
       },
     },
     {
@@ -471,7 +471,7 @@ const input = tv({
       labelPlacement: "inside",
       color: "default",
       class: {
-        label: "group-data-[filled-within=true]:text-default-600",
+        label: "group-data-[filled-within=true]:text-default-300",
       },
     },
     // labelPlacement=outside & default

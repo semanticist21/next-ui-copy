@@ -17,9 +17,9 @@ export const defaultLayout: LayoutTheme = {
     large: "1.75rem",
   },
   radius: {
-    small: "8px",
-    medium: "12px",
-    large: "14px",
+    small: "2px",
+    medium: "6px",
+    large: "10px",
   },
   borderWidth: {
     small: "1px",

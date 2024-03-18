@@ -1,7 +1,7 @@
 const solid = {
   default: "bg-default text-default-foreground",
   primary: "bg-primary text-primary-foreground",
-  secondary: "bg-secondary text-secondary-foreground",
+  secondary: "bg-secondary text-secondary-foreground border border-secondary-200",
   success: "bg-success text-success-foreground",
   warning: "bg-warning text-warning-foreground",
   danger: "bg-danger text-danger-foreground",
@@ -19,9 +19,9 @@ const shadow = {
 };
 
 const bordered = {
-  default: "bg-transparent border-default text-foreground",
-  primary: "bg-transparent border-primary text-primary",
-  secondary: "bg-transparent border-secondary text-secondary",
+  default: "bg-transparent border-default-300 text-foreground-900",
+  primary: "bg-transparent border-primary-300 text-primary-900",
+  secondary: "bg-transparent border-secondary-300 text-secondary-900",
   success: "bg-transparent border-success text-success",
   warning: "bg-transparent border-warning text-warning",
   danger: "bg-transparent border-danger text-danger",

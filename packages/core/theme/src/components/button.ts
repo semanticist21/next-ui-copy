@@ -103,12 +103,21 @@ const button = tv({
     {
       variant: "solid",
       color: "default",
-      class: colorVariants.solid.default,
+      class: [
+        colorVariants.solid.default,
+        "data-[hover=true]:bg-default-800",
+        "data-[disabled=true]:bg-default-100",
+        "data-[disabled=true]:text-default-600",
+      ],
     },
     {
       variant: "solid",
       color: "primary",
-      class: colorVariants.solid.primary,
+      class: [
+        colorVariants.solid.primary,
+        "data-[hover=true]:bg-primary-800",
+        "data-[disabled=true]:bg-primary-100",
+      ],
     },
     {
       variant: "solid",
@@ -165,17 +174,17 @@ const button = tv({
     {
       variant: "bordered",
       color: "default",
-      class: colorVariants.bordered.default,
+      class: [colorVariants.bordered.default, "data-[hover=true]:border-default-800"],
     },
     {
       variant: "bordered",
       color: "primary",
-      class: colorVariants.bordered.primary,
+      class: [colorVariants.bordered.primary, "data-[hover=true]:border-primary-800"],
     },
     {
       variant: "bordered",
       color: "secondary",
-      class: colorVariants.bordered.secondary,
+      class: [colorVariants.bordered.secondary, "data-[hover=true]:border-secondary-800"],
     },
     {
       variant: "bordered",
@@ -421,7 +430,7 @@ const button = tv({
     },
     // variant / hover
     {
-      variant: ["solid", "faded", "flat", "bordered", "shadow"],
+      variant: ["faded", "flat", "bordered", "shadow"],
       class: "data-[hover=true]:opacity-hover",
     },
   ],
