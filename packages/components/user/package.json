@@ -47,7 +47,7 @@
     "@react-aria/utils": "^3.21.1"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
+    "@kkoms/theme": "workspace:*",
     "@nextui-org/system": "workspace:*",
     "@nextui-org/link": "workspace:*",
     "clean-package": "2.2.0",

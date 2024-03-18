@@ -30,9 +30,9 @@
     "start": "pnpm dlx http-server storybook-static"
   },
   "dependencies": {
-    "@nextui-org/react": "workspace:*",
+    "@kkoms/next-ui-publish-test": "workspace:*",
     "@nextui-org/system": "workspace:*",
-    "@nextui-org/theme": "workspace:*",
+    "@kkoms/theme": "workspace:*",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },

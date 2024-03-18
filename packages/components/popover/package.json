@@ -59,7 +59,7 @@
     "react-remove-scroll": "^2.5.6"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
+    "@kkoms/theme": "workspace:*",
     "@nextui-org/system": "workspace:*",
     "@nextui-org/input": "workspace:*",
     "@nextui-org/card": "workspace:*",

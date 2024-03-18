@@ -53,7 +53,7 @@
     "@react-stately/slider": "^3.4.4"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
+    "@kkoms/theme": "workspace:*",
     "@nextui-org/system": "workspace:*",
     "@nextui-org/shared-icons": "workspace:*",
     "@nextui-org/test-utils": "workspace:*",

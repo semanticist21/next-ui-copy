@@ -44,7 +44,7 @@
     "@nextui-org/react-utils": "workspace:*"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
+    "@kkoms/theme": "workspace:*",
     "@nextui-org/card": "workspace:*",
     "@nextui-org/button": "workspace:*",
     "clean-package": "2.2.0",

@@ -52,7 +52,7 @@
     "@react-types/shared": "^3.21.0"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
+    "@kkoms/theme": "workspace:*",
     "@nextui-org/system": "workspace:*",
     "@nextui-org/code": "workspace:*",
     "@nextui-org/link": "workspace:*",

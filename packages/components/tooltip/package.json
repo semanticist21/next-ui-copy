@@ -55,7 +55,7 @@
     "@react-types/overlays": "^3.8.3"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
+    "@kkoms/theme": "workspace:*",
     "@nextui-org/system": "workspace:*",
     "@nextui-org/button": "workspace:*",
     "framer-motion": "^10.16.4",

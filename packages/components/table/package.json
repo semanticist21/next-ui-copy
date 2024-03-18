@@ -56,7 +56,7 @@
     "@react-types/table": "^3.9.0"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
+    "@kkoms/theme": "workspace:*",
     "@nextui-org/system": "workspace:*",
     "@nextui-org/button": "workspace:*",
     "@nextui-org/chip": "workspace:*",

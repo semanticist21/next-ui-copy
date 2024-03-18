@@ -52,7 +52,7 @@
     "@react-types/menu": "^3.9.5"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
+    "@kkoms/theme": "workspace:*",
     "@nextui-org/system": "workspace:*",
     "@nextui-org/button": "workspace:*",
     "@nextui-org/avatar": "workspace:*",

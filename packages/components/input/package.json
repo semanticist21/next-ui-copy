@@ -53,7 +53,7 @@
     "react-textarea-autosize": "^8.5.2"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
+    "@kkoms/theme": "workspace:*",
     "@nextui-org/system": "workspace:*",
     "clean-package": "2.2.0",
     "react": "^18.0.0",

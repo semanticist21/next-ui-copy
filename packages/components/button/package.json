@@ -54,7 +54,7 @@
     "@react-types/button": "^3.9.0"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
+    "@kkoms/theme": "workspace:*",
     "@nextui-org/system": "workspace:*",
     "@nextui-org/shared-icons": "workspace:*",
     "clean-package": "2.2.0",

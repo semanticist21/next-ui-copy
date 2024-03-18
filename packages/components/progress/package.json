@@ -49,7 +49,7 @@
     "@react-types/progress": "^3.5.0"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
+    "@kkoms/theme": "workspace:*",
     "@nextui-org/system": "workspace:*",
     "@nextui-org/card": "workspace:*",
     "@nextui-org/chip": "workspace:*",
